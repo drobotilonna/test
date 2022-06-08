@@ -1,0 +1,48 @@
+.header_button{
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    border: none;
+   border-radius: 20px;
+}
+.header__button_green{
+    background-color: rgb(11, 68, 11);
+    height: 50px;
+    width: 90px;
+
+}
+.header__button_yellow{
+    background-color: rgb(190, 142, 36);
+    height: 30px;
+    width: 90px;
+    
+}
+.header{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__button_blue{
+    background-color: rgb(85, 116, 255);
+    height: 45px;
+    width: 45px;
+}
+
+.header__button_gradient{
+    background: rgb(60,176,191);
+background: -moz-linear-gradient(114deg, rgba(60,176,191,0.6433167016806722) 15%, rgba(116,17,147,0.8309917717086834) 72%);
+background: -webkit-linear-gradient(114deg, rgba(60,176,191,0.6433167016806722) 15%, rgba(116,17,147,0.8309917717086834) 72%);
+background: linear-gradient(114deg, rgba(60,176,191,0.6433167016806722) 15%, rgba(116,17,147,0.8309917717086834) 72%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3cb0bf",endColorstr="#741193",GradientType=1);
+    height: 50px;
+    width: 67px;
+
+}
+
+.header__button_red{
+    background-color: rgb(182, 18, 18);
+    height: 40px;
+    width: 60px;
+}
